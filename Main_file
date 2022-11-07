@@ -1,0 +1,11 @@
+#Это программа.
+enter = []
+n = int(input('Введите количество строк'))
+for i in range (n):
+  element = str(input())
+  enter.append(element)
+output = []
+for a in enter:
+  if len(a) <= 3:
+    output.append(a)
+print(output)
